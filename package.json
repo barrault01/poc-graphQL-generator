@@ -1,0 +1,15 @@
+{
+  "name": "poc-graphQL-generator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:barrault01/poc-graphQL-generator.git",
+  "author": "Antoine Barrault <barrault01@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "apollo": "^2.18.0"
+  },
+  "scripts": {
+    "ios": "apollo codegen:generate --target=swift '--includes=./**/*.graphql' --localSchemaFile=schema.json API.swift",
+    "download": "node ./scripts/download.js"
+  }
+}

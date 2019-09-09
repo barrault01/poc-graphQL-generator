@@ -1,0 +1,25 @@
+PODS:
+  - Apollo (0.10.1):
+    - Apollo/Core (= 0.10.1)
+  - Apollo/Core (0.10.1)
+  - GraphQLGerator (0.1.0):
+    - Apollo
+
+DEPENDENCIES:
+  - GraphQLGerator (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Apollo
+
+EXTERNAL SOURCES:
+  GraphQLGerator:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Apollo: 4d690a9b2e48e8820182df4b988d7a253e1ee589
+  GraphQLGerator: cf8bea55e646420bf20c95cd6746c282c99b4a99
+
+PODFILE CHECKSUM: 19cf507c2d64fd25438edfe9f1a4063be8474828
+
+COCOAPODS: 1.7.5

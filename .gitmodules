@@ -1,0 +1,3 @@
+[submodule "starwars-server"]
+	path = starwars-server
+	url = git@github.com:apollographql/starwars-server.git
