@@ -12,7 +12,9 @@ The simple way to start is to clone the repository and install the apollo depend
 This repository comes with a submodule that contains a [graphQL server](https://github.com/apollographql/starwars-server/).  
 
     git submodule init
+    git submodule update --recursive
     cd starwars-server/
+    npm install
     npm start
 
 This will start the graphQL server, it should be available [here](http://localhost:8080/graphql).
