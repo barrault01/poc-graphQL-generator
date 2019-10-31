@@ -15,11 +15,11 @@ function execute(command) {
 
 readline.question(`Inform your GraphQL endpoint (default is http://localhost:8080/graphql): `, (endpoint) => {
 
-  if (typeof str === 'undefined') {
-      str = "http://localhost:8080/graphql"
+  if (typeof endpoint === 'undefined') {
+      endpoint = "http://localhost:8080/graphql"
   }
-  console.log(`###### Downloading schema from ${str} ######`);
+  console.log(`###### Downloading schema from ${endpoint} ######`);
 
-  execute(`yarn apollo schema:download --endpoint=${str} schema.json`)
+  execute(`yarn apollo schema:download --endpoint=${endpoint} schema.json`)
   readline.close()
 })
