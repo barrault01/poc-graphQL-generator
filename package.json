@@ -6,7 +6,7 @@
   "author": "Antoine Barrault <barrault01@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "apollo": "^2.18.0"
+    "apollo": "^2.5.1"
   },
   "scripts": {
     "ios": "apollo codegen:generate --target=swift '--includes=./**/*.graphql' --localSchemaFile=schema.json API.swift",
